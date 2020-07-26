@@ -434,3 +434,47 @@ font-size: 18px;
     display: block;
 }
 }
+@media only screen and (max-width: 300px)
+
+{
+    .todoapplication
+    {
+    background-color: honeydew;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: -550px;
+    border-radius: 50px;
+    }
+
+    .text
+    {
+     color: royalblue;   
+     font-style: italic;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+    }
+    .developer
+{
+color: white;
+font-size: 18px;
+}
+.deleteall_button
+{
+    margin: auto;
+    display: block;
+}
+.todo_item
+{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    display: block;
+}
+}
