@@ -1,0 +1,436 @@
+.background
+{
+    background: url('https://images.pexels.com/photos/719597/pexels-photo-719597.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background:(0, 0.8, 0.8, 0.2);
+    background-size:cover;
+    width:100%;
+    height:600px;
+
+    }
+.todoapplication
+{
+background-color: honeydew;
+width: 40%;
+height: 500px;
+margin: auto;
+display: block;
+margin-top: -550px;
+border-radius: 50px;
+box-shadow: 10px 10px 10px 10px black
+}
+.text
+{
+ color: royalblue;   
+ font-style: italic;
+ text-align: center;
+ font-family: sans-serif;
+}
+.developer
+{
+color: white;
+}
+.Delete_button
+{
+    background-color: magenta;
+    color:black;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+.Edit_button
+{
+    background-color: magenta;
+    color:black;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+.todo_item
+{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    display: block;
+}
+.todo_button
+{
+    background-color: magenta;
+    color:black;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+}
+.deleteall_button
+{background-color: magenta;
+    color:black;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+}
+.orderlist
+{
+    font-size: 20px;
+}
+@media only screen and (max-width: 360px)
+
+{
+    .todoapplication
+    {
+    background-color: honeydew;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: -550px;
+    border-radius: 50px;
+    }
+
+    .text
+    {
+     color: royalblue;   
+     font-style: italic;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+    }
+    .developer
+{
+color: white;
+font-size: 18px;
+}
+.deleteall_button
+{
+    margin: auto;
+    display: block;
+}
+.todo_item
+{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 24px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    display: block;
+}
+}
+@media only screen and (max-width: 640px)
+
+{
+    .todoapplication
+    {
+    background-color: honeydew;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: -550px;
+    border-radius: 50px;
+    
+    }
+
+    .text
+    {
+     color: royalblue;   
+     font-style: italic;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+    }
+    .developer
+{
+color: white;
+font-size: 24px;
+}
+.todo_item
+{
+margin: auto;
+display: block;
+}
+.todo_button
+{
+    margin: auto;
+    display: block;
+}
+.deleteall_button
+{
+    margin: auto;
+    display: block;
+}
+}
+
+@media only screen and (max-width: 731px)
+
+{
+    .todoapplication
+    {
+    background-color: honeydew;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: -550px;
+    border-radius: 50px;
+    }
+
+    .text
+    {
+     color: royalblue;   
+     font-style: italic;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+    }
+    .developer
+{
+color: white;
+font-size: 18px;
+}
+.deleteall_button
+{
+    margin: auto;
+    display: block;
+}
+.todo_item
+{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    display: block;
+}
+}
+
+@media only screen and (max-width: 360px)
+
+{
+    .todoapplication
+    {
+    background-color: honeydew;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: -550px;
+    border-radius: 50px;
+    }
+
+    .text
+    {
+     color: royalblue;   
+     font-style: italic;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+    }
+    .developer
+{
+color: white;
+font-size: 18px;
+}
+.deleteall_button
+{
+    margin: auto;
+    display: block;
+}
+.todo_item
+{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 22px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    display: block;
+}
+}
+@media only screen and (max-width: 375px)
+
+{
+    .todoapplication
+    {
+    background-color: honeydew;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: -550px;
+    border-radius: 50px;
+    }
+
+    .text
+    {
+     color: royalblue;   
+     font-style: italic;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+    }
+    .developer
+{
+color: white;
+font-size: 18px;
+}
+.deleteall_button
+{
+    margin: auto;
+    display: block;
+}
+.todo_item
+{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 24px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    display: block;
+}
+}
+
+@media only screen and (max-width: 736px)
+
+{
+    .todoapplication
+    {
+    background-color: honeydew;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: -550px;
+    border-radius: 50px;
+    }
+
+    .text
+    {
+     color: royalblue;   
+     font-style: italic;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+    }
+    .developer
+{
+color: white;
+font-size: 18px;
+}
+.deleteall_button
+{
+    margin: auto;
+    display: block;
+}
+.todo_item
+{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    display: block;
+}
+}
+
+@media only screen and (max-width: 768px)
+
+{
+    .todoapplication
+    {
+    background-color: honeydew;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: -550px;
+    border-radius: 50px;
+    }
+
+    .text
+    {
+     color: royalblue;   
+     font-style: italic;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+    }
+    .developer
+{
+color: white;
+font-size: 18px;
+}
+.deleteall_button
+{
+    margin: auto;
+    display: block;
+}
+.todo_item
+{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    display: block;
+}
+}
+
+@media only screen and (max-width: 280px)
+
+{
+    .todoapplication
+    {
+    background-color: honeydew;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: block;
+    margin-top: -550px;
+    border-radius: 50px;
+    }
+
+    .text
+    {
+     color: royalblue;   
+     font-style: italic;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+    }
+    .developer
+{
+color: white;
+font-size: 18px;
+}
+.deleteall_button
+{
+    margin: auto;
+    display: block;
+}
+.todo_item
+{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    display: block;
+}
+}

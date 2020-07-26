@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="M-tf4qPXD2ChIU_jwM4cYS8Dk8ToDSiyZLEyQ6lSL_Y" />
+    <title>To Do Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="background">
+    <div>
+        <h1 class="developer">Developed by: <a href=""  class="developer">Hafiz Muhammad Tahir Nisar</a></h1>
+    </div>
+</div>
+<div class="todoapplication"> 
+<h1 class="text">To do Application </h1>
+<div>
+    <input type="text" id="todo_item" placeholder="Enter something" class="todo_item">
+    <button onclick="add_item()" class="todo_button">Add New Item</button>
+    <button onclick="delete_all()" class="deleteall_button" >Delete All</button>
+</div>
+<div>
+    <ol id="list" class="orderlist">
+
+    </ol>
+</div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
